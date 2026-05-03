@@ -17,7 +17,7 @@ To regenerate `data/processed/static_timeSeries_new.csv` from the public CTN-009
 bash scripts/run_preprocessing.sh
 ```
 
-The notebook runner scripts are also kept for reviewers who prefer to reproduce the executed notebooks directly:
+The notebook runner scripts are also kept for reviewers who prefer to reproduce the executed notebooks directly (**to 100% reproduce the results in the manuscript, please run notebooks**):
 
 ```bash
 bash scripts/run_main_benchmark_notebook.sh
