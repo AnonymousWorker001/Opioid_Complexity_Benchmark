@@ -61,7 +61,7 @@ The fast workflow is the intended path for most reviewers. The preprocessing not
 
 Create a clean Python environment, then install the dependencies using either `pip` or `conda`.
 
-### Option 1: Python virtual environment
+### Option 1: Python virtual environment (need 6GB storage for virtural environment, tested on Ubuntu)
 
 ```bash
 python -m venv .venv
@@ -209,4 +209,4 @@ For the NeurIPS Evaluations & Datasets submission, the Kaggle dataset URL and co
 
 ## Runtime note
 
-The quick data check runs in seconds. The main benchmark script trains the LSTM and tabular baselines and then runs tier-specific evaluation, CIS-weighted evaluation, cohort-composition stress tests, and ablations. Runtime depends on hardware; CPU execution may take substantially longer than the quick data check. The executed notebooks and `results/expected_metrics.*` files provide reference outputs for sanity checking.
+The quick data check runs in seconds. The main benchmark script trains the LSTM and tabular baselines and then runs tier-specific evaluation, CIS-weighted evaluation, cohort-composition stress tests, and ablations. Runtime depends on hardware; CPU execution may take substantially longer than the quick data check, but usually the time won't exceed 15 minutes. The executed notebooks and `results/expected_metrics.*` files provide reference outputs for sanity checking.
