@@ -1,0 +1,9 @@
+name: oudpred
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - ipykernel
+  - pip:
+      - -r requirements.txt
