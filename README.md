@@ -109,7 +109,7 @@ The main script runs `scripts/01_main_benchmark_analysis.py`, which imports reus
 
 The prefix-based comparison script runs `scripts/02_prefix_cis_figure_s4.py` and generates the supplementary prefix-/sample-level CIS AUROC comparison.
 
-Notebook execution remains available for reviewers who prefer to reproduce the executed notebooks directly (to 100% reproduce the results in the manuscript, please run notebooks):
+Notebook execution remains available for reviewers who prefer to reproduce the executed notebooks directly (**to 100% reproduce the results in the manuscript, please run notebooks**):
 
 ```bash
 bash scripts/run_main_benchmark_notebook.sh
